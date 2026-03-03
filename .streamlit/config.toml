@@ -1,0 +1,17 @@
+[server]
+# 배포 환경에서 CORS 허용
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+# 배포 환경에서 자동 브라우저 실행 비활성화
+gatherUsageStats = false
+
+[theme]
+# 기본 시스템 폰트 사용 → 한글 폰트 깨짐 방지
+base = "light"
+primaryColor        = "#2E75B6"
+backgroundColor     = "#FFFFFF"
+secondaryBackgroundColor = "#F0F4FA"
+textColor           = "#1F1F1F"
+font                = "sans serif"
